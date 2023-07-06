@@ -19,6 +19,6 @@ public class CarService {
     }
 
     public List<Car> getCars(int count) {
-        return carDao.getCars(count).stream().limit(count).collect(Collectors.toList());
+        return carDao.getCars().stream().limit(count).collect(Collectors.toList());
     }
 }

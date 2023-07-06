@@ -19,7 +19,7 @@ public class CarDAO {
         cars.add(new Car("Chery", "Cruz", "White"));
     }
 
-    public List<Car> getCars(int count) {
+    public List<Car> getCars() {
         return cars;
     }
 
